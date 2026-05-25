@@ -225,7 +225,7 @@ ul a{
         font-size: 0.7rem;
         text-align: center;
     }
- /* ================= MOBILE RESPONSIVE ================= */
+ /** MOBILE RESPONSIVE **/
 
 @media screen and (max-width: 768px){
 
@@ -291,7 +291,7 @@ ul a{
 }
 
 
-/* ================= EXTRA SMALL DEVICES ================= */
+/** EXTRA SMALL DEVICES **/
 
 @media screen and (max-width: 480px){
 
