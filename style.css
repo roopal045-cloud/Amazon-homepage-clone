@@ -225,3 +225,97 @@ ul a{
         font-size: 0.7rem;
         text-align: center;
     }
+ /* ================= MOBILE RESPONSIVE ================= */
+
+@media screen and (max-width: 768px){
+
+    .navbar{
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .nav-logo{
+        margin-bottom: 10px;
+    }
+
+    .nav-search{
+        width: 95%;
+        margin: 10px 0;
+    }
+
+    .panel{
+        height: auto;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
+    .panel-options{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .panel-options p{
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .hero-section{
+        height: 250px;
+        background-position: center;
+    }
+
+    .hero-message{
+        width: 90%;
+        font-size: 14px;
+        text-align: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .shop-section{
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 48%;
+        margin-bottom: 15px;
+    }
+
+    .foot-panel2{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+
+/* ================= EXTRA SMALL DEVICES ================= */
+
+@media screen and (max-width: 480px){
+
+    .navbar{
+        justify-content: center;
+    }
+
+    .nav-search{
+        width: 100%;
+    }
+
+    .box{
+        width: 95%;
+    }
+
+    .hero-section{
+        height: 200px;
+    }
+
+    .hero-message{
+        font-size: 12px;
+    }
+
+    .panel-options{
+        font-size: 12px;
+    }
+}
