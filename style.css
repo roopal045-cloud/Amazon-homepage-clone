@@ -245,20 +245,24 @@ ul a{
     }
 
     .panel{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
         height: auto;
         padding: 10px;
-        flex-wrap: wrap;
     }
 
     .panel-options{
         width: 100%;
         text-align: center;
-        margin-top: 10px;
     }
 
     .panel-options p{
         display: inline-block;
-        margin: 8px;
+        margin: 5px;
+    }
+    .panel-all{
+        margin-bottom: 10px;
     }
 
     .hero-section{
