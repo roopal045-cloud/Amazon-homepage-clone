@@ -225,43 +225,55 @@ ul a{
         font-size: 0.7rem;
         text-align: center;
     }
- /** MOBILE RESPONSIVE **/
+/* ================= MOBILE RESPONSIVE ================= */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width:768px){
 
+    /* NAVBAR */
     .navbar{
         height: auto;
         flex-wrap: wrap;
+        justify-content: center;
         padding: 10px;
+        gap: 10px;
     }
 
     .nav-logo{
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     .nav-search{
         width: 95%;
-        margin: 10px 0;
     }
 
+    .search-input{
+        font-size: 1rem;
+    }
+
+    /* PANEL */
     .panel{
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: center;
         height: auto;
+        flex-direction: column;
+        align-items: flex-start;
         padding: 10px;
+    }
+
+    .panel-all{
+        margin-bottom: 10px;
     }
 
     .panel-options{
         width: 100%;
-        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     .panel-options p{
-        display: inline-block;
-        margin: 5px;
+        margin-left: 0;
     }
 
+    /* HERO SECTION */
     .hero-section{
         height: 250px;
         background-position: center;
@@ -269,54 +281,222 @@ ul a{
 
     .hero-message{
         width: 90%;
-        font-size: 14px;
-        text-align: center;
         height: auto;
         padding: 10px;
+        font-size: 14px;
+        text-align: center;
     }
 
+    /* SHOP SECTION */
     .shop-section{
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .box{
-        width: 48%;
-        margin-bottom: 15px;
+        width: 90%;
+        height: auto;
     }
 
+    .box-img{
+        background-position: center;
+    }
+
+    /* FOOTER */
     .foot-panel2{
         flex-wrap: wrap;
         height: auto;
         padding: 20px;
     }
-}
 
+    .foot-panel2 ul{
+        margin-bottom: 20px;
+    }
 
-/** EXTRA SMALL DEVICES **/
+    .foot-options{
+        padding: 15px;
+    }
+}/* ================= MOBILE RESPONSIVE ================= */
 
-@media screen and (max-width: 480px){
+@media screen and (max-width:768px){
 
+    /* NAVBAR */
     .navbar{
+        height: auto;
+        flex-wrap: wrap;
         justify-content: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .nav-logo{
+        margin-bottom: 5px;
     }
 
     .nav-search{
-        width: 100%;
-    }
-
-    .box{
         width: 95%;
     }
 
-    .hero-section{
-        height: 200px;
+    .search-input{
+        font-size: 1rem;
     }
 
-    .hero-message{
-        font-size: 12px;
+    /* PANEL */
+    .panel{
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .panel-all{
+        margin-bottom: 10px;
     }
 
     .panel-options{
-        font-size: 12px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .panel-options p{
+        margin-left: 0;
+    }
+
+    /* HERO SECTION */
+    .hero-section{
+        height: 250px;
+        background-position: center;
+    }
+
+    .hero-message{
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* SHOP SECTION */
+    .shop-section{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box{
+        width: 90%;
+        height: auto;
+    }
+
+    .box-img{
+        background-position: center;
+    }
+
+    /* FOOTER */
+    .foot-panel2{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px;
+    }
+
+    .foot-panel2 ul{
+        margin-bottom: 20px;
+    }
+
+    .foot-options{
+        padding: 15px;
+    }
+}
+/**MOBILE RESPONSIVE **/
+
+@media screen and (max-width:768px){
+
+    /* NAVBAR */
+    .navbar{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .nav-logo{
+        margin-bottom: 5px;
+    }
+
+    .nav-search{
+        width: 95%;
+    }
+
+    .search-input{
+        font-size: 1rem;
+    }
+
+    /* PANEL */
+    .panel{
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .panel-all{
+        margin-bottom: 10px;
+    }
+
+    .panel-options{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .panel-options p{
+        margin-left: 0;
+    }
+
+    /* HERO SECTION */
+    .hero-section{
+        height: 250px;
+        background-position: center;
+    }
+
+    .hero-message{
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* SHOP SECTION */
+    .shop-section{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box{
+        width: 90%;
+        height: auto;
+    }
+
+    .box-img{
+        background-position: center;
+    }
+
+    /* FOOTER */
+    .foot-panel2{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px;
+    }
+
+    .foot-panel2 ul{
+        margin-bottom: 20px;
+    }
+
+    .foot-options{
+        padding: 15px;
     }
 }
