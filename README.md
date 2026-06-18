@@ -2,6 +2,10 @@
 
 A front-end clone of the Amazon homepage built using HTML and CSS. This project recreates the layout, navigation bar, product sections, and overall user interface of Amazon to practice responsive web design and modern front-end development techniques.
 
+## 🚀 Live Demo
+
+👉 https://amazone-homepage-clone.netlify.app/
+
 ## 🚀 Features
 
 - Amazon-inspired homepage layout
