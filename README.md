@@ -45,21 +45,6 @@ The goal of this project was to improve front-end development skills by recreati
 - UI replication
 - Web design fundamentals
 
-## ▶️ Getting Started
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/amazon-homepage-clone.git
-```
-
-2. Open the project folder.
-
-3. Launch `index.html` in your browser.
-
-## 📸 Preview
-
-Add screenshots of the homepage here.
 
 ## 🌟 Future Improvements
 
